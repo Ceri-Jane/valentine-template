@@ -57,7 +57,7 @@
   const TOASTS_DESKTOP = [
     "Wrong answer. Try again 😌",
     "Nope.",
-    "Absolutely not 💅",
+    "Absolutely not 🚫",
     "Nice try 😈",
     "We both know the answer.",
     "Stop that 😂",
