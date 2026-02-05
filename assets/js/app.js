@@ -61,14 +61,14 @@
     "Nice try 😈",
     "We both know the answer.",
     "Stop that 😂",
-    "Try the green button, baby.",
+    "Try the green button!",
   ];
 
   const TOASTS_MOBILE_TAPS = [
     "No? Interesting choice 😌",
     "Wrong button 😈",
     "Try again 👀",
-    "Final answer? …nope 💅",
+    "Final answer? …nope 🚫",
   ];
 
   let desktopIndex = 0;
@@ -120,7 +120,7 @@
     function convertNoToYes() {
       setNoVisible(true);
 
-      noBtn.textContent = "Yes 🖤";
+      noBtn.textContent = "Yes 💟";
       noBtn.classList.remove("btn-no");
       noBtn.classList.add("btn-yes");
 
@@ -142,7 +142,7 @@
         enterSite();
       });
 
-      showToast(toast, "Okay fine. YES it is 🖤");
+      showToast(toast, "Okay fine. YES it is 💟");
     }
 
     // -----------------------------
